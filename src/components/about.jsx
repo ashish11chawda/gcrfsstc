@@ -23,25 +23,25 @@ export default function About() {
           className="social-link github"
           target="_blank"
           href="https://github.com/pixan198">
-          <GitHubIcon className="social-link-github" />
+          <GitHubIcon className="social-link-github" fontSize="large" />
         </a>
         <a rel="noreferrer noopener"
           className="social-link linkedin"
           target="_blank"
           href="https://www.linkedin.com/in/ashishchawda/">
-          <LinkedInIcon className="social-link-linkedin" />
+          <LinkedInIcon className="social-link-linkedin" fontSize="large" />
         </a>
         <a rel="noreferrer noopener"
           className="social-link twitter"
           target="_blank"
           href="https://twitter.com/ashish11chawda">
-          <TwitterIcon className="social-link-twitter" />
+          <TwitterIcon className="social-link-twitter" fontSize="large" />
         </a>
         <a rel="noreferrer noopener"
           className="social-link instagram"
           target="_blank"
           href="https://www.instagram.com/_tachyon._">
-          <InstagramIcon className="social-link-instagram" />
+          <InstagramIcon className="social-link-instagram" fontSize="large" />
         </a>
       </p>
     </div>
