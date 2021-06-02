@@ -28,6 +28,7 @@ function ActuallyPrint(data, user){
         <li>{status[0]} <span>First Milestone</span></li>
         <li>☑️ <strong>{user.quest}</strong> Quests Completed</li>
         <li>☑️ <strong>{user.skillBadge}</strong> Skill Badges Completed</li>
+        <li><strong>You can now create your badge <a href="https://badge.gcrfsstc.study" style={{"textDecoration":"none","backgroundColor":"#EA4335","color":"#fff"}}>&nbsp;here&nbsp;</a>.</strong></li>
       </ul>
     </div>
     </React.StrictMode>,
