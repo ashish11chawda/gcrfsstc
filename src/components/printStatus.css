@@ -45,6 +45,13 @@
 .info, .credit{
     margin: 20px 10px;
 }
+.badge-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
 .social{
     margin: 20px 0;
 }

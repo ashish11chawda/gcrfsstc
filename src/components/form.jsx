@@ -6,7 +6,7 @@ import FindInPageIcon from "@material-ui/icons/FindInPage";
 import Button from "@material-ui/core/Button";
 import EmailIcon from "@material-ui/icons/Email";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import About from './about';
+// import About from './about';
 import axios from 'axios';
 import PrintStatus from './progressStatus';
 require('dotenv').config();
@@ -119,7 +119,6 @@ function Form() {
         </div>
       </div>
       <div id="status-div"></div>
-      <About/>
     </>
   );
 }
