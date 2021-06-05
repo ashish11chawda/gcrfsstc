@@ -38,6 +38,7 @@ export default function App() {
       </div>
       <section><Form /></section>
       <About/>
+      {analytics.logEvent('Page Served')}
     </div>
   );
 }
