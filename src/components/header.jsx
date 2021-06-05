@@ -5,10 +5,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import LanguageIcon from "@material-ui/icons/Language";
-// import "firebase/auth";
-// import { SignIn, SignOut } from "./../firebaseAuth";
-import GCRFLogo from "./../images/crf21-logo.png";
-// import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: 0,

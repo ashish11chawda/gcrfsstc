@@ -2,10 +2,8 @@ import React from "react";
 import "./App.css";
 import Form from "./components/form";
 import firebase from "firebase/app";
-// import "firebase/auth";
 import "firebase/analytics";
 import Header from "./components/header";
-// import { useAuthState } from "react-firebase-hooks/auth";
 import About from "./components/about";
 import GCRLogo from "./images/crf21-main-logo.png";
 
@@ -19,12 +17,10 @@ firebase.initializeApp({
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 });
-// const auth = firebase.auth();
 const analytics = firebase.analytics();
 
 
 export default function App() {
-  // const [userAuth] = useAuthState(auth);
 
   return (
     <div className="App">
